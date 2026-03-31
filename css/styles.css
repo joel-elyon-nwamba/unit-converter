@@ -33,6 +33,7 @@ header {
     height: 70px;
     margin: 0 auto;
     font-size: 50px;
+    font-family: "Inter", sans-serif;
 }
 
 #convert-btn {
@@ -48,13 +49,21 @@ header {
     background-color: #F4F4F4;
     padding-top: 20px;
     width: 550px;
-    height: 300px;
+    height: 490px;
     margin: 0 auto;
 }
 
 .background {
     background-color: #fff;
     width: 500px;
-    height: 100px;
+    height: 80px;
     margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#length, #volume, #mass {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #5A537B;
 }
