@@ -13,7 +13,7 @@ body {
     height: 285px;
     background-color: #6943FF;
     color: #fff;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
 }
 
 header {
@@ -47,16 +47,16 @@ header {
 
 .conversion{
     background-color: #F4F4F4;
-    padding-top: 20px;
-    width: 550px;
+    padding: 20px;
+    max-width: 540px;
     height: 490px;
     margin: 0 auto;
 }
 
 .background {
     background-color: #fff;
-    width: 500px;
-    height: 80px;
+    width: 300px;
+    height: 100px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
@@ -66,4 +66,10 @@ header {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     color: #5A537B;
+}
+
+p {
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    color: #353535;
 }
