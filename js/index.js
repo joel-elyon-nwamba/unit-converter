@@ -11,3 +11,10 @@ const metersToFeet = 3.281;
 const litresToGallon = 0.264;
 const kiloToPound = 2.204;
 
+// Function meters to feet 
+convertBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+    let baseValue = inputValue.value 
+
+    lengthResult.textContent = `${baseValue} meters = ${baseValue * metersToFeet} feet`;
+});
