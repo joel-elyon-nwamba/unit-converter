@@ -3,32 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Unit Converter</title>
+        <title>Unit Conversion</title>
         <link href="css/styles.css" rel="stylesheet"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section class="container">
-            <header>
-                <h1>Metric/Imperial Unit Conversion</h1>
-            </header>
-            <div class="num">20</div>
-            <button id="convert-btn">Convert</button>
+        <section class="container-one">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <form id="conversion-form" class="form-convert">
+                <input type="number" id="input-value" class="num-input" placeholder="Enter a number" required>
+                <button id="convert-btn">Convert</button>
+            </form>
         </section>
-        <section class="conversion">
-            <div id="length" class="background">
+        <section class="container-two">
+            <div class="conversion-result">
                 <h2>Length (Meter/Feet)</h2>
-                <p id="length-result">20 Meters = 65.62 Feet | 65.62 Feet = 20 Meters</p>
+                <p id="length-result">0 meters = 0 feet | 0 feet = 0 meters</p>
             </div>
-            <div id="volume" class="background">
+            <div class="conversion-result">
                 <h2>Volume (Liters/Gallons)</h2>
-                <p id="volume-result">20 Liters = 5.28 Gallons | 5.28 Gallons = 20 Liters</p>
+                <p id="volume-result">0 liters = 0 gallons | 0 gallons = 0 liters</p>
             </div>
-            <div id="mass" class="background">
+            <div class="conversion-result">
                 <h2>Mass (Kilograms/Pounds)</h2>
-                <p id="mass-result">20 Kilograms = 44.09 Pounds | 44.09 Pounds = 20 Kilograms</p>   
+                <p id="mass-result">0 kilograms = 0 pounds | 0 pounds = 0 kilograms</p>
             </div>
         </section>
         <script src="js/index.js"></script>
