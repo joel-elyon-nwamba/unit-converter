@@ -22,15 +22,15 @@ convertBtn.addEventListener("click", (e) => {
 function metersFeet() {
      let baseValue = inputValue.value 
     // const finalResult = 
-    lengthResult.textContent = `${baseValue} meters = ${baseValue * metersToFeet} feet`;
+    lengthResult.textContent = `${baseValue} meters = ${baseValue * metersToFeet} feet |  ${baseValue} feet = ${baseValue / metersToFeet} meters` ;
 }
 
 function litresGallon() {
     let baseValue = inputValue.value 
-    volumeResult.textContent = `${baseValue} litres = ${baseValue * litresToGallon} gallons`
+    volumeResult.textContent = `${baseValue} litres = ${baseValue * litresToGallon} gallons |  ${baseValue} gallons = ${baseValue / litresToGallon} litres`;
 }
 
 function kilosPounds() {
     let baseValue = inputValue.value 
-    massResult.textContent = `${baseValue} kilograms = ${baseValue * kiloToPound} pounds`
+    massResult.textContent = `${baseValue} kilograms = ${baseValue * kiloToPound} pounds |  ${baseValue} pounds = ${baseValue / metersToFeet} kilograms`
 }
